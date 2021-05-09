@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with TailwindCSS</title>
+    <link href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="w-full">
+        <div class="container mx-auto xl:px-20 2xl:px-28 flex items-center">
+            <a href="" class="flex-shrink-0">
+                <img src="deva.webp" alt="" class="w-28">
+            </a>
+            
+            <div class="ml-auto flex items-center">
+                <a href="" class="p-8 hover:text-indigo-600 transition-all">Home</a>
+                <a href="" class="p-8 hover:text-indigo-600 transition-all">Portfolio</a>
+                <a href="" class="p-8 hover:text-indigo-600 transition-all">Blog</a>
+                <a href="" class="p-8 hover:text-indigo-600 transition-all">Shop</a>
+                <a href="" class="p-8 hover:text-indigo-600 transition-all">Contact</a>
+                <a href="" class="p-4 bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 font-bold rounded-lg transition-all">
+                    Get a Quote
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto xl:px-20 2xl:px-28 pt-28 flex flex-col justify-center" style="height: 3000px;">
+        <div class="grid grid-cols-2 gap-8">
+            <div aria-label="left-content" class="">
+                <div class="font-bold text-gray-700 mb-4">Faster Than API</div>
+                <div class="font-black text-4xl text-gray-700">The Platform for local-first software</div>
+                <p class="mt-8 text-gray-700">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Recusandae eligendi laudantium doloribus asperiores neque laboriosam 
+                    incidunt necessitatibus ea officia minima illum,
+                    optio nisi eius. Libero nulla beatae quod alias ullam?
+                </p>
+
+                <div class="flex mt-8">
+                    <a href=""
+                        class="p-4 bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 font-bold rounded-lg transition-all mr-4">
+                        Get Started
+                    </a>
+                    <a href="" class="p-4 text-indigo-600 font-bold rounded-lg transition-all">
+                        Learn more
+                    </a>
+                </div>
+            </div>
+            <div aria-label="right-content" class="">
+                <img src="deva.gif" alt="" class="w-full">
+            </div>
+        </div>
+
+    <div class="flex space-x-4 my-10 pt-40" style="height: 1000px;">
+            <div class="grid grid-cols-2 gap-8"> 
+                <div aria-label="left-content" class="">
+                    <div class="font-black py-6 text-4xl text-gray-700 mx-14 my-8 w-1/3">
+                        Innovative Solution
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex content-between" >
+                <div aria-label="right-content" class="mx-12">
+                    <div class="text-gray-400 text-xl my-12 ml-44 w-2/3">
+                    Don’t write real-time APIs. Move your database to the browser. 
+                    Homebase keeps local data in sync so you can build fast 
+                    and collaborative React apps.
+                    </div>
+                </div>
+            </div>
+    </div>
+        
+    <div class="flex space-x-20 mx-12" style="height: 1000px;">
+        <a href="" class="box-content h-80 w-80 border-4 border-opacity-50 rounded-md bg-gray-100 bg-opacity-25 hover:bg-opacity-100 transition-all">
+            <img src="API.webp" alt="" class="place-items-start p-2">
+            <div class="font-medium text-2xl p-2">
+                Faster than an Api
+            </div>
+            <div class="text-gray-400 p-2">
+                Don’t write real-time APIs. 
+                Move your database to the browser. Homebase keeps local data in sync so you can 
+                build fast and collaborative React apps.
+            </div>
+            <div class="font-medium text-indigo-600 hover:text-white transition-all p-4">
+                Learn more
+            </div>
+        </a>
+        <a href="" class="box-content h-80 w-80 border-4 border-opacity-50 rounded-md bg-gray-100 bg-opacity-25 hover:bg-opacity-100 transition-all">
+            <img src="JSON.webp" alt="" class="place-items-start p-2">
+            <div class="font-medium text-2xl p-2">
+                Easier than JSON
+            </div>
+            <div class="text-gray-400 p-2">
+                Don’t write real-time APIs. 
+                Move your database to the browser. Homebase keeps local data in sync so you can 
+                build fast and collaborative React apps.
+            </div>
+            <div class="font-medium text-indigo-600 hover:text-white transition-all p-4">
+                Learn more
+            </div>
+        </a>
+        <a href="" class="box-content h-80 w-80 border-4 border-opacity-50 rounded-md bg-gray-100 bg-opacity-25 hover:bg-opacity-100 transition-all">
+            <img src="collaborative.webp" alt="" class="place-items-start p-2">
+            <div class="font-medium text-2xl p-2">
+                Collaborative
+            </div>
+            <div class="text-gray-400 p-2">
+                Don’t write real-time APIs. 
+                Move your database to the browser. Homebase keeps local data in sync so you can 
+                build fast and collaborative React apps.
+            </div>
+            <div class="font-medium text-indigo-600 hover:text-white transition-all p-4">
+                Learn more
+            </div>
+        </a>
+    </div>
+
+    <div class="my-10 pt-40">
+            <div class="font-black py-6 text-6xl text-gray-700">
+                Just a few clicks
+            </div>
+         <img src="laman.webp" alt="" class="object-center p-12">
+        </div>
+
+        <div class="flex space-x-20 mx-36">
+            <a href="" class="box-content h-96 w-auto">
+                <img src="phone.webp" alt="" class="place-items-start p-0">
+                <div class="text-gray-400 p-4">
+                    Homebase keeps local data 
+                    in sync so you can build 
+                    fast and collaborative React apps.
+                </div>
+            </a>
+            <a href="" class="box-content h-96 w-auto">
+                <img src="dashboard.webp" alt="" class="place-items-start p-0">
+                <div class="text-gray-400 p-4">
+                    Homebase keeps local data 
+                    in sync so you can build
+                    fast and collaborative React apps.
+                </div>
+            </a>
+            <a href="" class="box-content h-96 w-auto">
+                <img src="coin.webp" alt="" class="place-items-start p-0">
+                <div class="text-gray-400 p-4">
+                    Homebase keeps local data 
+                    in sync so you can build 
+                    fast and collaborative React apps.
+                </div>
+            </a>
+            <a href="" class="box-content h-96 w-auto">
+                <img src="pizza.webp" alt="" class="place-items-start p-0">
+                <div class="text-gray-400 p-4">
+                    Homebase keeps local data 
+                    in sync so you can build 
+                    fast and collaborative React apps.
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="text-white text-5xl font-bold p-20 text-center bg-gray-900">
+        Make your data more manageable
+    </div>
+    <div class="bg-auto bg-gray-900 flex">
+        <div class="flex flex-col">
+            <div class="box-content h-auto w-1/2 pl-20 py-10">
+                <div class="text-white text-2xl font-medium">
+                    Sync with database
+                </div>
+                <div class="text-gray-600 pt-6">
+                    Database keeps your local and cloud data in sync so everything just works. 
+                    No API needed. We'll back it up, sync it, 
+                    and even help you authenticate and authorize users.
+                </div>
+            </div>
+            
+            <div class="box-content h-auto w-1/2 pl-20 py-10">
+                <div class="text-white text-2xl font-medium">
+                    Reactively save data
+                </div>
+                <div class="text-gray-600 pt-6">
+                    Make your app feel native. Make it faster and work offline.
+                    Our consistency mechanisms make offline transactions 
+                    as easy as transacting to a central cloud database.
+                </div>
+            </div>
+            
+            <div class="box-content h-auto w-1/2 pl-20 py-10">
+                <div class="text-white text-2xl font-medium">
+                    Create a DB right in React
+                </div>
+                <div class="text-gray-600 pt-6">
+                    Don't wait on the network. We'll cache everything and automatically 
+                    subscribe clients to changes.
+                </div>
+            </div>
+        </div>
+        <img src="campaign.webp" alt="" class="h-96 w-1/2 my-20 mx-12">
+        
+    </div>
+    
+    <div class="mx-24 mt-36 mb-16 text-gray-900 text-5xl font-bold ">
+        Additional Information
+    </div>
+    
+    <div class="text-gray-600 text-xl mx-24 mb-16">
+        Our consistency mechanisms make offline transactions as easy as transacting to a central cloud database.
+    </div>
+    
+    <div class="flex">
+        <div class="box-content h-40 w-96 mx-24 my-6">
+            <div class="text-gray-700 text-2xl font-bold">
+                Reactively query relation
+            </div>
+            <div class="text-gray-600 text-x1 pt-6">
+                Don't wait on the network. We'll cache everything 
+                and automatically subscribe clients to changes.
+            </div>
+        </div>
+
+        <div class="box-content h-40 w-96 mx-24 my-6">
+            <div class="text-gray-700 text-2xl font-bold">
+                Sync data across devices
+            </div>
+            <div class="text-gray-600 text-x1 pt-6">
+                Our consistency mechanisms make offline transactions 
+                as easy as transacting to a central database.
+            </div>
+        </div>
+
+        <div class="box-content h-40 w-96 mx-24 my-6">
+            <div class="text-gray-700 text-2xl font-bold">
+                Create a DB right in React
+            </div>
+            <div class="text-gray-600 text-x1 pt-6">
+                Don't wait on the network. We'll cache everything 
+                and automatically subscribe clients to changes.
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-100 flex" style="height: 1000px;">
+        <div class="grid grid-cols-2">
+            <div class="left-content">
+                <div class="text-gray-900 text-5xl font-bold my-12 mx-4 pt-96 ">
+                    Why choose app?
+                </div>
+                <div class="text-gray-500 text-x1 m-4  pt-12 pb-12">
+                    Don’t write real-time APIs. Move your database to the browser. 
+                    Homebase keeps local data in sync 
+                    so you can build fast and collaborative React apps.
+                </div>
+                <a href="" class=" m-4 p-4 bg-indigo-600 text-white hover:bg-white hover:text-indigo-600 font-bold rounded-lg transition-all mr-4">
+                    Get a free demo
+                </a>
+            </div>
+        </div>
+
+        <div class="flex flex-col my-12">
+            <div class="w-72 h-26 bg-white m-4 px-20 pb-40">
+                <img src="visitors.webp" alt="" class="object-top px-8">
+                <div class="text-center font-bold text-2xl text-gray-900 pt-6">
+                    Guide your visitors
+                </div>
+                <div class="text-center text-gray-700 py-6">
+                    Send visitors to the right products and pages at the right time.
+                </div>
+            </div>
+            <div class="w-72 h-42 bg-white m-4 px-20 pb-40">
+                <img src="sales.webp" alt="" class="object-top px-8">
+                <div class="text-center font-bold text-2xl text-gray-900 pt-6">
+                    Increase your sales
+                </div>
+                <div class="text-center text-gray-700 py-6">
+                    Sell more to your website visitors and make the most of your traffic.
+                </div>
+            </div>
+        </div>
+        
+        <div class="flex flex-col">
+            <div class="w-72 h-42 bg-white m-4 px-20 pb-40">
+                <img src="donut.webp" alt="" class="object-top px-8">
+                <div class="text-center font-bold text-2xl text-gray-900 pt-6">
+                    Help visitors out
+                </div>
+                <div class="text-center text-gray-700 py-6">
+                    Invite visitors to contact you at the exact moment they need help.
+                </div>
+            </div>
+            <div class="w-72 h-42 bg-white m-4 px-20 pb-40">
+                <img src="mail.webp" alt="" class="object-top px-8">
+                <div class="text-center font-bold text-2xl text-gray-900 pt-6">
+                    Collect more emails
+                </div>
+                <div class="text-center text-gray-700 py-6">
+                    Grow a segmented email list with quality subscribers.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-5xl text-gray-900 font-bold mt-36 mx-12">
+        Look what others said
+    </div>
+
+    <div class="flex">
+        <div class="container w-96 h-96 bg-gray-50 text-gray-500 my-40 mx-12 p-6">
+            "I am completely blown away. Thanks guys, keep up the good work! 
+            I just can't get enough of Deva App. 
+            I want to get a T-Shirt with Karma App on it 
+            so I can show it off to everyone."
+            <div class="flex-col">
+                <img src="oscar.webp" alt="" class="flex pt-8">
+                <div class="text-x1 text-gray-900 font-bold pt-4">
+                    Oscar Sandoval
+                </div>
+                <div class="text-gray-500">
+                    Manager, Noodle Inc.
+                </div>
+            </div>
+        </div>
+        <div class="container w-96 h-96 bg-gray-50 text-gray-500 my-40 mx-12 p-6">
+            "I like Deva App more and more each day because it makes my life a lot easier. 
+            It's the perfect solution for our business. 
+            Deva App is worth much more than I paid."
+            <div class="flex-col">
+                <img src="cate.webp" alt="" class="flex pt-14">
+                <div class="text-x1 text-gray-900 font-bold pt-4">
+                    Cate Gore
+                </div>
+                <div class="text-gray-500">
+                    Designer, Gymterest Inc.
+                </div>
+            </div>
+        </div>
+        <div class="container w-96 h-96 bg-gray-50 text-gray-500 my-40 mx-12 p-6">
+            "I was amazed at the quality of Deva App. 
+            I would gladly pay over 600 dollars for Deva App. 
+            We've used Deva App for the last five years. 
+            Deva is the most valuable resource ever."
+            <div class="flex-col">
+                <img src="johny.webp" alt="" class="flex pt-8">
+                <div class="text-x1 text-gray-900 font-bold pt-4">
+                    Johny Cooper
+                </div>
+                <div class="text-gray-500">
+                    Sales Manager, Dwitter Inc.
+                </div>
+            </div>
+        </div>
+        <div class="container w-96 h-96 bg-gray-50 text-gray-500 my-40 mx-12 p-6">
+            "Deva App is exactly what our business has been lacking. 
+            If you aren't sure, always go for Deva. 
+            I would also like to say thank you. 
+            It should be nominated for service of the year."
+            <div class="flex-col">
+                <img src="martin.webp" alt="" class="flex pt-8">
+                <div class="text-x1 text-gray-900 font-bold pt-4">
+                    Martin Schmidth
+                </div>
+                <div class="text-gray-500">
+                    CEO, Macrohard Inc.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white flex px-20">
+        <div class="container flex flex-col bg-indigo-400 w-auto h-auto px-16 py-80">
+            <div class="flex flex-col text-5xl text-white font-bold">
+                Get Started with Demo For Free
+            </div>
+            <div class="flex flex-col text-white py-10">
+                Your DB is like Git now. Share it directly with the client. 
+                Replicate, fork, and join data from multiple Homebase databases. 
+                This is possible because of the automatic conflict resolution and built-in versioning of data. 
+                As a side effect of this data portability, 
+                you can eliminate many APIs and ETLs.
+            </div>
+        </div>
+        <div class="container bg-indigo-400 w-1/2 h-auto rounded-md">
+            <div class="bg-white text-2xl text-gray-900 font-bold my-10 mx-4 px-12 py-6">
+                Get a free demo
+            </div>
+        </div>
+    </div>
+
+    <nav class="w-full mt-36 bg-gray-900">
+        <div class="container xl:px-20 2xl:px-28 py-10 flex items-center">
+            <a href="" class="flex-shrink-0">
+                <img src="deva2.webp" alt="" class="w-28">
+            </a>
+            <div class="ml-auto flex-items-center">
+                <a href="" class="p-8 text-white">Useful tips</a>
+                <a href="" class="p-8 text-white">Tools</a>
+                <a href="" class="p-8 text-white">Articles 2</a>
+                <a href="" class="p-8 text-white">Press</a>
+            </div>
+            <a href="" class="ml-20 text-gray-400">info@deva.com</a>
+        </div>
+    </nav>
+</body>
+</html>
